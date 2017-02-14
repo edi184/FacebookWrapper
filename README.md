@@ -1,11 +1,17 @@
-# MessengerLite
-
-This is not official Messenger Lite by Facebook repo!
+# Messenger Lite by edi194
 
 It is simple Android app with Webview to load Facebook Messenger website.
 
-Known bugs:
-- on my devices after login it shows problem with page (it worked before),
-- no notifications (i do not know if it is possible to implement it).
+Working ATM:
+- logging in and messaging,
+- everything what is online (stickers, emoji).
+
+TODO:
+- notifications,
+- scale for other display sizes (now work on xxhdpi, 1080p).
+
+Not working:
+- image sharing, taking photos inside app,
+- microphone recording.
 
 Do what you want with it with proper credits.
