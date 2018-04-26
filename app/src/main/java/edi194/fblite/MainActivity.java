@@ -23,11 +23,9 @@ public class MainActivity extends Activity {
         mWebView.getSettings().setSupportZoom(false);
         mWebView.getSettings().setLoadWithOverviewMode(true);
         mWebView.loadUrl("https://m.facebook.com/");
-        String defaultUserAgent = mWebView.getSettings().getUserAgentString();
-        //ty to JakeLane for this
-        mWebView.getSettings().setUserAgentString(defaultUserAgent.replaceFirst("Android ([0-9]+(\\.[0-9]+)*)", "Android"));
+        mWebView.getSettings().setUserAgentString("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36 OPR/52.0.2871.97");
     }
-    
+
     @Override
     public void onBackPressed() {
         if (mWebView.canGoBack()) {
@@ -36,19 +34,4 @@ public class MainActivity extends Activity {
             super.onBackPressed();
         }
     }
-
-    @Override
-    public void onWindowFocusChanged(boolean hasFocus) {
-        super.onWindowFocusChanged(hasFocus);
-        if (hasFocus) {
-            getWindow().getDecorView().setSystemUiVisibility(
-                    View.SYSTEM_UI_FLAG_LAYOUT_STABLE
-                            | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
-                            | View.SYSTEM_UI_FLAG_FULLSCREEN
-                            | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
-        }
-    }
-
-
-
 }
