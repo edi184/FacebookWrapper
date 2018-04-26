@@ -1,17 +1,8 @@
-# Messenger Lite by edi194
+# Facebook wrapper
 
-It is simple Android app with Webview to load Facebook Messenger website.
+It is simple Android app with Webview to load Facebook website (messages works too)
 
-Working ATM:
-- logging in and messaging,
-- everything what is online (stickers, emoji).
+TODO/to fix:
+- notifications
+- probably everything, it's well not tested xd
 
-TODO:
-- notifications,
-- scale for other display sizes (now work on xxhdpi, 1080p).
-
-Not working:
-- image sharing, taking photos inside app,
-- microphone recording.
-
-Do what you want with it with proper credits.

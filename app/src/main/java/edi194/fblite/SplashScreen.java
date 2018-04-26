@@ -1,4 +1,4 @@
-package edi194.messengerlite;
+package edi194.fblite;
 
 import android.app.Activity;
 import android.content.Intent;
