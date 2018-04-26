@@ -4,5 +4,5 @@ It is simple Android app with Webview to load Facebook website (messages works t
 
 TODO/to fix:
 - notifications
-- probably everything, it's well not tested xd
+- probably everything, it's not well tested xd
 
