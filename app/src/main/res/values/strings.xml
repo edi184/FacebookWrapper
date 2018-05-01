@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">FBlite</string>
+    <string name="save_title">Download</string>
+    <string name="save_menu">Save</string>
+    <string name="save_done">Image saved</string>
+    <string name="save_failed">Something went wrong...</string>
+    <string name="info">It saves image in strange file extension, check your file browser for downloaded file</string>
 </resources>
