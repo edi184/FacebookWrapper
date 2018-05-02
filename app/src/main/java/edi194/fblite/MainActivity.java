@@ -73,8 +73,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mySwipeRefreshLayout = this.findViewById(R.id.swipeContainer);
-        //String url = "http://m.facebook.com/";
-        String url = "http://www.onzehost.com.br/images/test-img.jpg";
+        String url = "http://m.facebook.com/";
         webView = (WebView) this.findViewById(R.id.webView);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setBuiltInZoomControls(true);
