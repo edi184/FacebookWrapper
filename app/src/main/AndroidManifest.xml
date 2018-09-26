@@ -20,7 +20,10 @@
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="edi194.fblite.MAINACTIVITY" />
-
+                <data android:scheme="https" />
+                <data android:scheme="https" android:host="*.facebook.com"/>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
